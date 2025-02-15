@@ -6,7 +6,7 @@ Given User should start "chrome"
 And user should open the app using url "https://adactinhotelapp.com/SearchHotel.php"
 When user enters username '<Userid>' by using xpath "//input[@name='username']"
 And user enters password '<Password>' by using xapth "//input[@name='password']"
-Then user clicks on submit button using xapth "//input[@name='login']"
+Then user clicks on button using xapth "//input[@name='login']"
 And user verifies the title '<ExpTitle>'
 
 
