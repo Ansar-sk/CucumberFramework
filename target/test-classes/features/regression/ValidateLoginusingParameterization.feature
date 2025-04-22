@@ -1,4 +1,5 @@
 Feature: Validate login functionalities using paramaeterizartion
+@all
 Scenario Outline:
 To validate login using multiple credentials
 

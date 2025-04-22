@@ -1,9 +1,10 @@
-Feature:
-Validate login functionality
+@all
+Feature: Validate login functionality with background
 
 Background: To start browser and lauch the app
 Given User should start "chrome"
 And user should open the app using url "https://adactinhotelapp.com/SearchHotel.php"
+
 
 Scenario:
 To validate login using multiple login creds

@@ -1,5 +1,5 @@
 Feature: Validate Login functionality
-@wip123
+@wip123 @all
 Scenario: Validate login using different credentials
 Given User should start "chrome"
 And user should open the app using url "https://adactinhotelapp.com/SearchHotel.php"
